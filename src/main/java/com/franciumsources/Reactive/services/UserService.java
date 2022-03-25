@@ -7,6 +7,8 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 public interface UserService {
-    Mono<UserModel> add(UserModel userModel);
+    Mono<UserModel> addUser(UserModel userModel);
     Flux<UserModel> getUsers();
+
+    Mono<UserModel> getUser(Long id);
 }

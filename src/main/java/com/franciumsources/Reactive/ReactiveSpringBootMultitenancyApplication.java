@@ -1,4 +1,4 @@
-package com.franciumsources.Reactive.Spring.Boot.Multitenancy;
+package com.franciumsources.Reactive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
